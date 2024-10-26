@@ -1,0 +1,25 @@
+
+
+.footer {
+    background-color: #4B4B4B; 
+    color: #FFFFFF; 
+    padding: 20px 0; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%;
+  }
+  
+  .social-icons {
+    margin: 15px 0; /* مسافة بين النص والأيقونات */
+  }
+  
+  .social-icons a {
+    color: #FFFFFF; /* لون أيقونات أبيض */
+    margin: 0 10px; /* مسافة بين الأيقونات */
+    text-decoration: none; 
+  }
+  
+  .social-icons a:hover {
+    color: #FFD700; 
+  }
+  

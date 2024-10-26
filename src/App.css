@@ -1,0 +1,100 @@
+/* Importing Roboto font */
+body {
+  font-family: 'Roboto', sans-serif; /* Apply the new font */
+  background-color: #f2f2f2; /* Set a light gray background */
+  color: #333; /* Set a dark gray text color */
+}
+
+.navbar {
+  background-color: #003366; /* Dark Blue navbar */
+}
+
+.navbar .nav-link {
+  color: #ffffff; /* White color for nav links */
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #007bff; /* Bright Blue on hover */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Make brand name bold */
+  font-size: 1.5rem; /* Increase font size */
+  color: #ffffff; /* White color for brand name */
+}
+
+.container {
+  padding: 20px; /* Add padding to the container */
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important; /* Space between sections */
+}
+
+/* Styling the property cards */
+.card {
+  border: 1px solid #e0e0e0; /* Light gray border for cards */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.card-title {
+  font-weight: 500; /* Medium font weight for titles */
+}
+
+.card-text {
+  color: #666; /* Dark gray for text */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    font-size: 0.9rem; /* Adjust font size for mobile */
+  }
+}
+/* قسم "عن نزل" */
+.about-section {
+  background-color: #FFD700; /* لون الخلفية الأصفر */
+  color: #4B4B4B; /* لون النص الرمادي الداكن */
+  padding: 40px; /* إضافة حشوة */
+  border-radius: 8px; /* زوايا مستديرة */
+}
+
+/* قسم "الخدمات" */
+.services-section {
+  background-color: #FFFFFF; /* لون خلفية أبيض */
+  border-radius: 8px; /* زوايا مستديرة */
+  padding: 40px; /* إضافة حشوة */
+}
+
+/* تخصيص بطاقة الخدمات */
+.card {
+  border: 1px solid #e0e0e0; /* حدود خفيفة للبطاقات */
+  border-radius: 8px; /* زوايا مستديرة */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+}
+
+.card-title {
+  font-weight: 500; /* سمك الخط للعنوان */
+  color: #000000; /* اللون الأساسي للعنوان */
+}
+
+.card-text {
+  color: #666; /* لون نص داكن */
+}
+
+/* قسم "قائمة العقارات" */
+.card {
+  background-color: #F0F0F0; /* خلفية رمادية فاتحة */
+}
+
+/* مظهر القسم التمهيدي */
+.mb-5 {
+  margin-bottom: 4rem !important; /* فراغ كبير بين الأقسام */
+}
+
+/* مظهر الفقرات */
+.text-center {
+  text-align: center; /* محاذاة النص إلى الوسط */
+}
